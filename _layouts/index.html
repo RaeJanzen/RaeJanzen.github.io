@@ -1,13 +1,12 @@
 ---
 layout: default
 ---
-
 <div class="content">
-  {% include pagination-newer.html %}
+  <!--{% include pagination-newer.html %}-->
 
   {{ content }}
 
-  {% for post in paginator.posts %}
+  {% for post in site.projects %}
   <article class="post-body">
     <h2 class="post-title">
       <a href="{{ post.url | relative_url }}">
@@ -38,5 +37,5 @@ layout: default
   </article>
   {% endfor %}
 
-  {% include pagination-older.html %}
+  <!--{% include pagination-older.html %}-->
 </div>

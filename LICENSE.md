@@ -1,4 +1,5 @@
 # Released under MIT License
+Copyright (c) 2024 Rae Janzen.
 
 Copyright (c) 2013 Mark Otto.
 

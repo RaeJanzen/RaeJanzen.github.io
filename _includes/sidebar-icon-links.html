@@ -1,17 +1,28 @@
 <nav id="sidebar-icon-links">
-  {% if site.hydeout.repo %}
     <a id="github-link"
-       class="icon" title="Github Project" aria-label="Github Project"
-       href="{{ site.hydeout.repo }}">
+       class="icon" title="Github Profile" aria-label="Github Profile"
+       href="https://github.com/RaeJanzen">
       {% include svg/github.svg %}
     </a>
+  {% if site.hydeout.repo %}
     <a id="github-download-link"
-       class="icon" title="Download" aria-label="Download"
+       class="icon" title="Download Repo" aria-label="Download Repo"
        href="{{ site.hydeout.repo }}/archive/v{{ site.hydeout.version }}.zip">
       {% include svg/download.svg %}
     </a>
   {% endif %}
-
+  <a id="linkedin-link"
+      class="icon" title="Linkedin Profile" aria-label="Linkedin Profile"
+      href="https://www.linkedin.com/in/raelene-j-a6574223b/">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+<a id="email-link"
+      class="icon" title="Email" aria-label="Email"
+      href="mailto:rae.janzen@gmail.com">
+      <i class="fas fa-at"></i>
+    </a>
+  {% include custom-icon-links.html %}
+<!--
   <a id="subscribe-link"
      class="icon" title="Subscribe" aria-label="Subscribe"
      href="{{ site.feed.path | default: 'feed.xml' | relative_url }}">
@@ -48,6 +59,5 @@
       {% include svg/search.svg %}
     </a>
   {% endif %}
-
-  {% include custom-icon-links.html %}
+-->
 </nav>
