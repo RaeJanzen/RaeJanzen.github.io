@@ -31,7 +31,8 @@ sidebar_sort_order: 1
 * Dashboards
 * Survey123
 * ArcGIS API for JavaScript
-* Notebooks
+* Jupyter Notebooks
+* ArcGIS Python API
 
 #### Additional Software Competencies
 * Microsoft Office Suit
@@ -44,7 +45,10 @@ sidebar_sort_order: 1
 * Solution oriented
 * Quick learner
 * Detail oriented
-* Written and verbal communication skills
+* Excellent written and verbal communication skills
+* Team player
+* Problem solving skills
+* Self learning
 <br>
 <br>
 
