@@ -7,13 +7,14 @@ layout: default
 </header>
 <div class="content">
   {% include post-meta.html post=page %}
-
   <div class="post-body">
     {{ content }}
     {% include post-tags.html post=page %}
   </div>
-    {% include home-link.html %}
 </div>
+  <div>
+    {% include back-home.html %}
+  </div>
 
 <!--
   {% include comments.html %}
